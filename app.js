@@ -8,6 +8,7 @@ var proxy = require('express-http-proxy');
 
 var app = express();
 
+
 //设置模板文件及模板类型
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
