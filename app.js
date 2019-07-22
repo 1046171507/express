@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var proxy = require('express-http-proxy');
 
-var app = express();
+var app = express()
 
 
 //设置模板文件及模板类型
